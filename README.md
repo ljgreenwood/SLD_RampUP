@@ -6,11 +6,16 @@ conda create -n backend
 conda activate backend
 conda install python
 conda install pip
-pip install flask openai flask-cors
+pip install flask flask-cors
+pip install whisper (this will install the model itself)
+pip install ffmpeg
 
 npm install (especially concurrently for easier dev experience)
 npm run dev
 ```
+
+![figma for the site design](public/image.png)
+*Figma design for the site. Yet to add multiple file inclusion function*
 
 ### Old default stuff from vite
 
