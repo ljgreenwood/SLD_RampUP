@@ -49,9 +49,6 @@ function AudioRecorder({ setFiles }: { setFiles: (files: any) => void }) {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <button disabled style={{ opacity: 0.7 }}>
-        Hold Spacebar to Talk
-      </button>
       <div style={{ marginTop: "0.5rem" }}>
         {isRecording ? "🎙️ Recording..." : "Press and hold spacebar to record"}
       </div>

@@ -23,3 +23,8 @@
   flex-direction: column; /* For vertical arrangement */
   gap: 10px; /* Adds 10px of vertical space between flex items */
 }
+
+.pre {
+  white-space: pre-wrap; /* This allows wrapping while preserving other whitespace */
+  word-wrap: break-word; /* For older browsers like IE */
+}

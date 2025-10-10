@@ -75,7 +75,17 @@ function App() {
       {transcription && (
         <div style={{ marginTop: "1rem" }}>
           <h3>Transcription:</h3>
-          <pre>{transcription}</pre>
+          <pre
+            style={{
+              whiteSpace: "pre-wrap",
+              wordWrap: "break-word",
+              backgroundColor: "#f8f8f8",
+              padding: "0.75rem",
+              borderRadius: "8px",
+            }}
+          >
+            {transcription}
+          </pre>
         </div>
       )}
     </div>
