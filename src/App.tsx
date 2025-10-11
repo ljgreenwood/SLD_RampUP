@@ -75,7 +75,12 @@ function App() {
             onupdatefiles={setfiles}
             allowMultiple={true}
             maxFiles={3}
-            acceptedFileTypes={["audio/mp3", "audio/wav", "audio/webm"]}
+            acceptedFileTypes={[
+              "audio/mp3",
+              "audio/wav",
+              "audio/webm",
+              "audio/m4a",
+            ]}
             name="file"
             labelIdle="Drag & Drop or <span class='filepond--label-action'>Browse</span> (mp3; wav; webm)"
           />

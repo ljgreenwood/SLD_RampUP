@@ -70,7 +70,7 @@ def transcribe():
 
     print("Transcription complete:", result["text"]) # for debugging (log to the terminal)
     
-    txt_path = audio_path.replace(".mp3", ".txt") # make a new path for the text file output
+    txt_path = audio_path.rsplit(".", 1)[0] + ".txt"
     with open(txt_path, "w") as out:
         out.write(result["text"])
 
