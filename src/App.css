@@ -5,12 +5,12 @@
   text-align: center;
 }
 
+h3 {
+      color: #f8f8f8;
+    }
+
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
 
 .App {
@@ -28,3 +28,53 @@
   white-space: pre-wrap; /* This allows wrapping while preserving other whitespace */
   word-wrap: break-word; /* For older browsers like IE */
 }
+
+.container {
+  display: flex; /* Make the container a flex container */
+  height: 50vh; /* Make the container take full viewport height */
+}
+
+.left-half {
+  flex: 1; /* Allow this div to grow and shrink, taking up equal space */
+  background-color: cornflowerblue; /* Example background for visibility */
+  padding: 20px; /* Add some padding for content */
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  align-items: center;
+}
+
+.right-half {
+  flex: 1; /* Allow this div to grow and shrink, taking up equal space */
+  background-color: lightcoral; /* Example background for visibility */
+  padding: 20px; /* Add some padding for content */
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+}
+
+.awaiting-results {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  flex-direction: column;
+}
+
+.spinner {
+  margin-top: 1rem;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f8f8f8;
+  border-top: 4px solid #6495ED;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.custom-button:hover {
+      border-color: cornflowerblue;
+      color: cornflowerblue;
+      transition: border-color 0.35s cubic-bezier(0.4, 0, 0.2, 1), color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+    }
