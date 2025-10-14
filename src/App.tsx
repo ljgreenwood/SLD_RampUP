@@ -80,6 +80,7 @@ function App() {
               "audio/wav",
               "audio/webm",
               "audio/m4a",
+              "audio/mp4",
             ]}
             name="file"
             labelIdle="Drag & Drop or <span class='filepond--label-action'>Browse</span> (mp3; wav; webm)"

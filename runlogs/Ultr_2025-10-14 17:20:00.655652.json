@@ -1,0 +1,80 @@
+{
+  "text": " telling to one a tiny thing of talk.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.58,
+      "text": " telling to one a tiny thing of talk.",
+      "tokens": [
+        50365,
+        3585,
+        281,
+        472,
+        257,
+        5870,
+        551,
+        295,
+        751,
+        13,
+        50615
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.6188013156255087,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 4.634596317831807e-10,
+      "words": [
+        {
+          "word": " telling",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.3036572337150574
+        },
+        {
+          "word": " to",
+          "start": 0.86,
+          "end": 1.12,
+          "probability": 0.7409048676490784
+        },
+        {
+          "word": " one",
+          "start": 1.12,
+          "end": 1.42,
+          "probability": 0.5331386923789978
+        },
+        {
+          "word": " a",
+          "start": 1.42,
+          "end": 1.78,
+          "probability": 0.6388410925865173
+        },
+        {
+          "word": " tiny",
+          "start": 1.78,
+          "end": 2.9,
+          "probability": 0.9660762548446655
+        },
+        {
+          "word": " thing",
+          "start": 2.9,
+          "end": 3.68,
+          "probability": 0.36385801434516907
+        },
+        {
+          "word": " of",
+          "start": 3.68,
+          "end": 4.22,
+          "probability": 0.9694511890411377
+        },
+        {
+          "word": " talk.",
+          "start": 4.22,
+          "end": 4.58,
+          "probability": 0.9166180491447449
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
